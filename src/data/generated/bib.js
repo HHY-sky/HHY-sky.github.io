@@ -15,7 +15,8 @@ define({ entries : {
         "title": "Regression {{Residual Reasoning}} with {{Pseudo-Labeled Contrastive Learning}} for {{Uncovering Multiple Complex Compositional Relations}}",
         "type": "conference",
         "url": "https://www.ijcai.org/proceedings/2024/384",
-        "urldate": "2024-11-22"
+        "urldate": "2024-11-22",
+        "year": "2024"
     },
     "liuDysarlDynamicStructureAware2024": {
         "abstract": "Multimodal knowledge graph (MKG) reasoning has attracted significant attention since impressive performance has been achieved by adding multimodal auxiliary information (i.e., texts and images) to the entities of traditional KGs. However, existing studies heavily rely on path-based methods for learning structural modality, failing to capture the complex structural interactions among multimodal entities beyond the reasoning path. In addition, existing studies have largely ignored the dynamic impact of different multimodal features on different decision facts for reasoning, which utilize asymmetric coattention to independently learn the static interplay between different modalities without dynamically joining the reasoning process. We propose a novel Dynamic Structureaware representation learning method, namely DySarl, to overcome this problem and significantly improve the MKG reasoning performance. Specifically, we devise a dual-space multihop structural learning module in DySarl, aggregating the multihop structural features of multimodal entities via a novel message-passing mechanism. It integrates the message paradigms in Euclidean and hyperbolic spaces, effectively preserving the neighborhood information beyond the limited multimodal query paths. Furthermore, DySarl has an interactive symmetric attention module to explicitly learn the dynamic impacts of unimodal attention senders and multimodal attention targets on decision facts through a newly designed symmetric attention component and fact-specific gated attention unit, equipping DySarl with the dynamic associations between the multimodal feature learning and later reasoning. Extensive experiments show that DySarl achieves significantly improved reasoning performance on two public MKG datasets compared with that of the state-of-the-art baselines. Source codes are available at https://github.com/HUSTNLP-codes/DySarl.",
@@ -24,7 +25,7 @@ define({ entries : {
         "date": "2024-10-28",
         "doi": "10.1145/3664647.3681020",
         "isbn": "979-8-4007-0686-8",
-        "keywords": "",
+        "keywords": "Multimodal Knowledge Graph , Dynamic Structure-aware Learning",
         "langid": "english",
         "location": "{Melbourne VIC, Australia}",
         "pages": "8247--8256",
@@ -32,7 +33,8 @@ define({ entries : {
         "title": "{{DySarl}}: {{Dynamic Structure-Aware Representation Learning}} for {{Multimodal Knowledge Graph Reasoning}}",
         "type": "conference",
         "url": "https://dl.acm.org/doi/10.1145/3664647.3681020",
-        "urldate": "2025-01-09"
+        "urldate": "2025-01-09",
+        "year": "2024"
     },
     "liuMultimodalEventCausality2024": {
         "abstract": "Multimodal event causality reasoning aims to recognize the causal relations based on the given events and accompanying image pairs, requiring the model to have a comprehensive grasp of visual and textual information. However, existing studies fail to effectively model the relations of the objects within the image and capture the object interactions across the image pair, resulting in an insufficient understanding of visual information by the model. To address these issues, we propose a Scene Graph Enhanced Interaction Network (SEIN) in this paper, which can leverage the interactions of the generated scene graph for multimodal event causality reasoning. Specifically, the proposed method adopts a graph convolutional network to model the objects and their relations derived from the scene graph structure, empowering the model to exploit the rich structural and semantic information in the image adequately. To capture the object interactions between the two images, we design an optimal transport-based alignment strategy to match the objects across the images, which could help the model recognize changes in visual information and facilitate causality reasoning. In addition, we introduce a cross-modal fusion module to combine textual and visual features for causality prediction. Experimental results indicate that the proposed SEIN outperforms state-of-the-art methods on the Vis-Causal dataset.",
@@ -50,7 +52,8 @@ define({ entries : {
         "title": "Multimodal Event Causality Reasoning with Scene Graph Enhanced Interaction Network",
         "type": "conference",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28724",
-        "urldate": "2025-01-08"
+        "urldate": "2025-01-08",
+        "year": "2024"
     },
     "luanTextCoTEnhancedMultimodal2024": {
         "abstract": "The advent of Large Multimodal Models (LMMs) has sparked a surge in research aimed at harnessing their remarkable reasoning abilities. However, for understanding text-rich images, challenges persist in fully leveraging the potential of LMMs, and existing methods struggle with effectively processing high-resolution images. In this work, we propose TextCoT, a novel Chain-of-Thought framework for text-rich image understanding. TextCoT utilizes the captioning ability of LMMs to grasp the global context of the image and the grounding capability to examine local textual regions. This allows for the extraction of both global and local visual information, facilitating more accurate questionanswering. Technically, TextCoT consists of three stages, including image overview, coarse localization, and finegrained observation. The image overview stage provides a comprehensive understanding of the global scene information, and the coarse localization stage approximates the image area containing the answer based on the question asked. Then, integrating the obtained global image descriptions, the final stage further examines specific regions to provide accurate answers. Our method is free of extra training, offering immediate plug-and-play functionality. Extensive experiments are conducted on a series of text-rich image question-answering benchmarks on several advanced LMMs, and the results demonstrate the effectiveness and strong generalization ability of our method. Code is available at https://github.com/bzluan/TextCoT.",
@@ -65,7 +68,8 @@ define({ entries : {
         "title": "{{TextCoT}}: {{Zoom In}} for {{Enhanced Multimodal Text-Rich Image Understanding}}",
         "type": "journal",
         "url": "http://arxiv.org/abs/2404.09797",
-        "urldate": "2025-02-06"
+        "urldate": "2025-02-06",
+        "year": "2024"
     },
     "malkinskiOneSelfConfigurable2023": {
         "abstract": "Abstract Visual Reasoning (AVR) comprises a wide selection of various problems similar to those used in human IQ tests. Recent years have brought dynamic progress in solving particular AVR tasks, however, in the contemporary literature AVR problems are largely dealt with in isolation, leading to highly specialized task-specific methods. With the aim of developing universal learning systems in the AVR domain, we propose the unified model for solving Single-Choice Abstract visual Reasoning tasks (SCAR), capable of solving various single-choice AVR tasks, without making any a priori assumptions about the task structure, in particular the number and location of panels. The proposed model relies on a novel Structure-Aware dynamic Layer (SAL), which adapts its weights to the structure of the considered AVR problem. Experiments conducted on Raven\u2019s Progressive Matrices, Visual Analogy Problems, and Odd One Out problems show that SCAR (SAL-based models, in general) effectively solves diverse AVR tasks, and its performance is on par with the state-of-the-art task-specific baselines. What is more, SCAR demonstrates effective knowledge reuse in multi-task and transfer learning settings. To our knowledge, this work is the first successful attempt to construct a general single-choice AVR solver relying on self-configurable architecture and unified solving method. With this work we aim to stimulate and foster progress on task-independent research paths in the AVR domain, with the long-term goal of development of a general AVR solver.",
@@ -80,7 +84,8 @@ define({ entries : {
         "title": "One {{Self-Configurable Model}} to {{Solve Many Abstract Visual Reasoning Problems}}",
         "type": "journal",
         "url": "http://arxiv.org/abs/2312.09997",
-        "urldate": "2024-11-22"
+        "urldate": "2024-11-22",
+        "year": "2023"
     },
     "mondalKAMCOTKnowledgeAugmented2024": {
         "abstract": "Large Language Models (LLMs) have demonstrated impressive performance in natural language processing tasks by leveraging chain of thought (CoT) that enables step-bystep thinking. Extending LLMs with multimodal capabilities is the recent interest, but incurs computational cost and requires substantial hardware resources. To address these challenges, we propose KAM-CoT a framework that integrates CoT reasoning, Knowledge Graphs (KGs), and multiple modalities for a comprehensive understanding of multimodal tasks. KAM-CoT adopts a two-stage training process with KG grounding to generate effective rationales and answers. By incorporating external knowledge from KGs during reasoning, the model gains a deeper contextual understanding reducing hallucinations and enhancing the quality of answers. This knowledge-augmented CoT reasoning empowers the model to handle questions requiring external context, providing more informed answers. Experimental findings show KAM-CoT outperforms the state-of-the-art methods. On the ScienceQA dataset, we achieve an average accuracy of 93.87%, surpassing GPT-3.5 (75.17%) by 18% and GPT-4 (83.99%) by 10%. Remarkably, KAM-CoT achieves these results with only 280M trainable parameters at a time, demonstrating its cost-efficiency and effectiveness.",
@@ -98,7 +103,8 @@ define({ entries : {
         "title": "{{KAM-CoT}}: {{Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning}}",
         "type": "conference",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29844",
-        "urldate": "2025-01-12"
+        "urldate": "2025-01-12",
+        "year": "2024"
     },
     "singhWellNowKnow2024": {
         "abstract": "Sarcasm is a widespread linguistic phenomenon that poses a considerable challenge to explain due to its subjective nature, absence of contextual cues and rooted personal perspectives. Even though the identification of sarcasm has been extensively studied in dialogue analysis, merely detecting sarcasm falls short of enabling conversational systems to genuinely comprehend the underlying meaning of a conversation and generate fitting responses. It is imperative to not only detect sarcasm but also pinpoint its origination and the rationale behind the sarcastic expressions to capture its authentic essence. In this paper, we delve into the discourse structure of conversations infused with sarcasm and introduce a novel task - Sarcasm Initiation and Reasoning in Conversations (SIRC). Embedded in a multimodal environment and involving a combination of both English and code-mixed interactions, the objective of the task is to discern the trigger or starting point of sarcasm. Additionally, the task involves producing a natural language explanation that rationalizes the satirical dialogues. To achieve this, we introduce Sarcasm Initiation and Reasoning Dataset (SIRD) to facilitate our task and provide sarcasm initiation annotations and reasoning. We develop a comprehensive model named Sarcasm Initiation and Reasoning Generation (SIRG), which is designed to encompass textual, audio, and visual representations. To achieve this, we introduce a unique shared fusion method that employs cross-attention mechanisms to seamlessly integrate these diverse modalities. Our experimental outcomes, conducted on the SIRD dataset, demonstrate that our proposed framework establishes a new benchmark for both sarcasm initiation and its reasoning generation in the context of multimodal conversations. The code and dataset can be accessed from https://www.iitp.ac.in/\u223cai-nlp-ml/resources. html#sarcasm-explain and https://github.com/GussailRaat/ SIRG-Sarcasm-Initiation-and-Reasoning-Generation.",
@@ -116,7 +122,8 @@ define({ entries : {
         "title": "Well, {{Now We Know}}! {{Unveiling Sarcasm}}: {{Initiating}} and {{Exploring Multimodal Conversations}} with {{Reasoning}}",
         "type": "conference",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29864",
-        "urldate": "2024-05-06"
+        "urldate": "2024-05-06",
+        "year": "2024"
     },
     "xuLLaVACoTVision2025": {
         "abstract": "Large language models have demonstrated substantial advancements in reasoning capabilities, particularly through inference-time scaling, as illustrated by models such as OpenAI\u2019s o1. However, current Vision-Language Models (VLMs) often struggle to perform systematic and structured reasoning, especially when handling complex visual question-answering tasks. In this work, we introduce LLaVA-CoT1, a novel VLM designed to conduct autonomous multistage reasoning. Unlike chain-of-thought prompting, LLaVA-CoT independently engages in sequential stages of summarization, visual interpretation, logical reasoning, and conclusion generation. This structured approach enables LLaVA-CoT to achieve marked improvements in precision on reasoning-intensive tasks. To accomplish this, we compile the LLaVA-CoT-100k dataset, integrating samples from various visual question answering sources and providing structured reasoning annotations. Besides, we propose an inference-time stage-level beam search method, which enables effective inferencetime scaling. Remarkably, with only 100k training samples and a simple yet effective inference time scaling method, LLaVA-CoT not only outperforms its base model by 7.4% on a wide range of multimodal reasoning benchmarks, but also surpasses the performance of larger and even closedsource models, such as Gemini-1.5-pro, GPT-4o-mini, and Llama-3.2-90B-Vision-Instruct. The code, dataset, and pre-trained weights are publicly available at https:// github.com/PKU-YuanGroup/LLaVA-CoT.",
@@ -130,7 +137,8 @@ define({ entries : {
         "title": "{{LLaVA-CoT}}: {{Let Vision Language Models Reason Step-by-Step}}",
         "type": "journal",
         "url": "http://arxiv.org/abs/2411.10440",
-        "urldate": "2025-02-05"
+        "urldate": "2025-02-05",
+        "year": "2025"
     },
     "zerrougBenchmarkCompositionalVisual2022": {
         "abstract": "A fundamental component of human vision is our ability to parse complex visual scenes and judge the relations between their constituent objects. AI benchmarks for visual reasoning have driven rapid progress in recent years with state-of-the-art systems now reaching human accuracy on some of these benchmarks. Yet, there remains a major gap between humans and AI systems in terms of the sample efficiency with which they learn new visual reasoning tasks. Humans\u2019 remarkable efficiency at learning has been at least partially attributed to their ability to harness compositionality \u2013 allowing them to efficiently take advantage of previously gained knowledge when learning new tasks. Here, we introduce a novel visual reasoning benchmark, Compositional Visual Relations (CVR), to drive progress towards the development of more data-efficient learning algorithms. We take inspiration from fluid intelligence and non-verbal reasoning tests and describe a novel method for creating compositions of abstract rules and generating image datasets corresponding to these rules at scale. Our proposed benchmark includes measures of sample efficiency, generalization, compositionality, and transfer across task rules. We systematically evaluate modern neural architectures and find that convolutional architectures surpass transformer-based architectures across all performance measures in most data regimes. However, all computational models are much less data efficient than humans, even after learning informative visual representations using self-supervision. Overall, we hope our challenge will spur interest in developing neural architectures that can learn to harness compositionality for more efficient learning.",
@@ -147,7 +155,8 @@ define({ entries : {
         "title": "A {{Benchmark}} for {{Compositional Visual Reasoning}}",
         "type": "conference",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/c08ee8fe3d19521f3bfa4102898329fd-Abstract-Datasets_and_Benchmarks.html",
-        "urldate": "2025-05-06"
+        "urldate": "2025-05-06",
+        "year": "2022"
     },
     "zhangMultimodalAnalogicalReasoningOver2022": {
         "abstract": "Analogical reasoning is fundamental to human cognition and holds an important place in various \ufb01elds. However, previous studies mainly focus on single-modal analogical reasoning and ignore taking advantage of structure knowledge. Notably, the research in cognitive psychology has demonstrated that information from multimodal sources always brings more powerful cognitive transfer than single modality sources. To this end, we introduce the new task of multimodal analogical reasoning over knowledge graphs, which requires multimodal reasoning ability with the help of background knowledge. Speci\ufb01cally, we construct a Multimodal Analogical Reasoning dataSet (MARS) and a multimodal knowledge graph MarKG. We evaluate with multimodal knowledge graph embedding and pre-trained Transformer baselines, illustrating the potential challenges of the proposed task. We further propose a novel model-agnostic Multimodal analogical reasoning framework with Transformer (MarT) motivated by the structure mapping theory, which can obtain better performance. We hope our work can deliver bene\ufb01ts and inspire future research1.",
@@ -163,6 +172,7 @@ define({ entries : {
         "title": "Multimodal {{Analogical Reasoning}} over {{Knowledge Graphs}}",
         "type": "conference",
         "url": "<https://arxiv.org/abs/2210.00312",
-        "urldate": "2025-01-13"
+        "urldate": "2025-01-13",
+        "year": "2022"
     }
 }});
