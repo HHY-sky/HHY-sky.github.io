@@ -13,7 +13,7 @@ define({ entries : {
         "publisher": "{International Joint Conferences on Artificial Intelligence Organization}",
         "series": "Vol. 33",
         "title": "Regression {{Residual Reasoning}} with {{Pseudo-Labeled Contrastive Learning}} for {{Uncovering Multiple Complex Compositional Relations}}",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "https://www.ijcai.org/proceedings/2024/384",
         "urldate": "2024-11-22",
         "year": "2024"
@@ -31,7 +31,7 @@ define({ entries : {
         "pages": "8247--8256",
         "publisher": "{ACM}",
         "title": "{{DySarl}}: {{Dynamic Structure-Aware Representation Learning}} for {{Multimodal Knowledge Graph Reasoning}}",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "https://dl.acm.org/doi/10.1145/3664647.3681020",
         "urldate": "2025-01-09",
         "year": "2024"
@@ -50,7 +50,7 @@ define({ entries : {
         "publisher": "{AAAI Press}",
         "series": "Vol. 38 No. 8",
         "title": "Multimodal Event Causality Reasoning with Scene Graph Enhanced Interaction Network",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28724",
         "urldate": "2025-01-08",
         "year": "2024"
@@ -66,7 +66,7 @@ define({ entries : {
         "keywords": "multimodal learning, text-rich images, chain-of-thought",
         "langid": "english",
         "title": "{{TextCoT}}: {{Zoom In}} for {{Enhanced Multimodal Text-Rich Image Understanding}}",
-        "type": "journal",
+        "type": "article",
         "url": "http://arxiv.org/abs/2404.09797",
         "urldate": "2025-02-06",
         "year": "2024"
@@ -82,7 +82,7 @@ define({ entries : {
         "langid": "english",
         "primaryclass": "cs",
         "title": "One {{Self-Configurable Model}} to {{Solve Many Abstract Visual Reasoning Problems}}",
-        "type": "journal",
+        "type": "article",
         "url": "http://arxiv.org/abs/2312.09997",
         "urldate": "2024-11-22",
         "year": "2023"
@@ -101,7 +101,7 @@ define({ entries : {
         "publisher": "{AAAI Press}",
         "series": "Vol. 38 No. 17",
         "title": "{{KAM-CoT}}: {{Knowledge Augmented Multimodal Chain-of-Thoughts Reasoning}}",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29844",
         "urldate": "2025-01-12",
         "year": "2024"
@@ -120,7 +120,7 @@ define({ entries : {
         "publisher": "{AAAI Press}",
         "series": "Vol. 38 No. 17",
         "title": "Well, {{Now We Know}}! {{Unveiling Sarcasm}}: {{Initiating}} and {{Exploring Multimodal Conversations}} with {{Reasoning}}",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29864",
         "urldate": "2024-05-06",
         "year": "2024"
@@ -135,7 +135,7 @@ define({ entries : {
         "keywords": "multimodal reasoning, chain-of-thought, vision-language models",
         "langid": "english",
         "title": "{{LLaVA-CoT}}: {{Let Vision Language Models Reason Step-by-Step}}",
-        "type": "journal",
+        "type": "article",
         "url": "http://arxiv.org/abs/2411.10440",
         "urldate": "2025-02-05",
         "year": "2025"
@@ -153,7 +153,7 @@ define({ entries : {
         "pages": "27489--27502",
         "publisher": "{Curran Associates, Inc.}",
         "title": "A {{Benchmark}} for {{Compositional Visual Reasoning}}",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/c08ee8fe3d19521f3bfa4102898329fd-Abstract-Datasets_and_Benchmarks.html",
         "urldate": "2025-05-06",
         "year": "2022"
@@ -170,7 +170,7 @@ define({ entries : {
         "publisher": "{arXiv}",
         "series": "arXiv preprint",
         "title": "Multimodal {{Analogical Reasoning}} over {{Knowledge Graphs}}",
-        "type": "conference",
+        "type": "inproceedings",
         "url": "<https://arxiv.org/abs/2210.00312",
         "urldate": "2025-01-13",
         "year": "2022"
