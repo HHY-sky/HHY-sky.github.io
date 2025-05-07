@@ -1,14 +1,14 @@
 define({
-	%% 以下是在网页 Keywords 里会显示的内容 %%
+%% 以下是在网页Keywords里会显示的内容 %%
 	tagCategories: {
-		"type": { %% Keywords 里的 Key %%
-			":"description "type of the paper" %% 鼠标移到 "type" 上方时的提示 %%
+		"methods": {
+			"description": "methods of the paper" 
 		},
-		"journal": { %% Keywords 里的 Key %%
-			"description": "arXiv preprint" %% 鼠标移到 "journal" 上方时的提示 %%
+		"benchmarks": {
+			"description": "benchmarks of the paper" 
 		},
-		"publisher": { %% Keywords 里的 Key %%
-			"description": "AAAI Press" %% 鼠标移到 "publisher" 上方时提示的 %%
+		"classes": {
+			"description": "classifications of the paper" 
 		}
 	}
 })
